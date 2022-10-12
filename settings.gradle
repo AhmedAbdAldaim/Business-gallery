@@ -1,0 +1,2 @@
+rootProject.name='Busines Gallery Admin'
+include ':app'

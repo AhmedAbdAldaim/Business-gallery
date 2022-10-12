@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="@dimen/_20sdp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.borjabravo.readmoretextview.ReadMoreTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/comment"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:text="جميل جدا "
+        android:padding="@dimen/_10sdp"
+        android:background="@drawable/custom_comment"
+        app:trimExpandedText="@string/shom_less"
+        app:trimCollapsedText="@string/shom_more"
+        app:trimLines="4"
+        app:trimMode="trimModeLine"
+        app:colorClickableText="@color/blue1"
+        android:fontFamily="@font/gg_ss"
+        android:textSize="@dimen/_11ssp"
+        android:textColor="@color/black"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:textDirection="rtl"
+        tools:ignore="MissingConstraints" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:id="@+id/delete_comment"
+        android:padding="@dimen/_10sdp"
+        android:layout_marginStart="@dimen/_20sdp"
+        android:layout_marginEnd="@dimen/_20sdp"
+        android:text="@string/deletecomments"
+        />
+
+</LinearLayout>

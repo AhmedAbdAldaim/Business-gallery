@@ -1,0 +1,128 @@
+<resources>
+    <string name="app_name">بيكاسو - الإدارة</string>
+
+    <!-- Connection -->
+    <string name="connect_internet_slow">هناك مشكلة في الإتصال بالانترنت </string>
+    <string name="loading">جار التحميل...</string>
+    <string name="wait">أرجو الإنتظار ....</string>
+    <string name="try_agin">حاول مرة اخرى</string>
+    <string name="ok">موافق</string>
+    <string name="error">خطأ</string>
+    <string name="servererror"> حدث خطأ ما يرجى المحاولة مرة أخرى في وقت لاحق</string>
+
+    <!-- Login Page -->
+    <string name="app_name_login">بيكاسو | الإدارة</string>
+    <string name="email">البريد الإلكتروني</string>
+    <string name="password">كلمة المرور</string>
+    <string name="login_btn">تسجيل الدخول</string>
+    <string name="email_empty">أدخل البريد الإلكتروني</string>
+    <string name="name_empty">أدخل الأسم</string>
+    <string name="password_empty">أدخل كلمة المرور</string>
+    <string name="password_check">كلمة المرور من 8 خانات او أكثر !</string>
+    <string name="email_valid">الرجاء إدخال بريد إلكتروني صالح !</string>
+
+    <!-- Profile Page -->
+    <string name="profile">الملف الشخصي</string>
+    <string name="logout">تسجيل الخروج</string>
+    <!--Logout -->
+    <string name="logout_massage">هل تريد تسجيل الخروج ؟</string>
+    <string name="logout_confirm">تأكيد</string>
+    <string name="logout_cancle">إلغاء</string>
+
+    <!--Edit Profile Page -->
+    <string name="Editprofile">تعديل الملف الشخصي</string>
+    <string name="editprofile_name">الإسم</string>
+    <string name="editprofile_email">البريد الإلكتروني</string>
+    <string name="editprofile_phone">رقم الهاتف</string>
+    <string name="editprofile_password">كلمة المرور</string>
+    <string name="editprofile_btn">نعديل</string>
+    <string name="editprofile_name_empty">أدخل الأسم</string>
+    <string name="editprofile_phone_empty">أدخل رقم الهاتف</string>
+    <string name="editprofile_email_empty">أدخل البريد الإلكتروني</string>
+    <string name="editprofile_password_empty">أدخل كلمة المرور</string>
+    <string name="editprofile_password_check">كلمة المرور من 8 خانات او أكثر !</string>
+    <string name="editprofile_name_check">الرجاء أدخال أسم لا يتجاوز 33 حرف !</string>
+    <string name="editprofile_phone_valid">الرجاء إدخال رقم هاتف صالح !</string>
+    <string name="editprofile_email_valid">الرجاء إدخال بريد إلكتروني صالح !</string>
+    <string name="editprofile_successfully">تم التعديل بنجاح !</string>
+
+    <!--Edit Password Page -->
+    <string name="Editpassword">تعديل كلمة المرور</string>
+    <string name="editpassword_old_password">كلمة المرور الحالية</string>
+    <string name="editpassword_onew_password">كلمة المرور الجديدة</string>
+    <string name="editpassword_new_password_confirm">تأكيد كلمة المرور الجديدة</string>
+    <string name="editpassword_old_password_empty">أدخل كلمة المرور الحالية</string>
+    <string name="editpassword_new_password_empty">أدخل كلمة المرور الجديدة</string>
+    <string name="editpassword_new_password_confirm_empty">أدخل تأكيد كلمة المرور الجديدة</string>
+    <string name="editpassword_password_similarity">الرجاء التحقق من تشابه كلمة المرور !</string>
+    <string name="editpassword_wrong_password">كلمة المرور غير صحيحة !</string>
+
+    <!-- Add Work -->
+    <string name="Addwork">إضافة عمل</string>
+    <string name="addwork_name">أسم الصورة</string>
+    <string name="addwork_detailes">التفاصيل</string>
+    <string name="addwork_price">السعر</string>
+    <string name="addwork_name_empty">أدخل أسم الصورة</string>
+    <string name="addwork_detailes_empty">أدخل تفاصيل الصورة</string>
+    <string name="addwork_price_empty">أدخل سعر الصورة</string>
+    <string name="addwork_image_empty">الرجاء أختيار الصورة!</string>
+    <string name="addwork_img">الصورة</string>
+    <string name="btn_Addwork">إضافة</string>
+    <string name="addwork_successfully">تم الإضافة بنجاح !</string>
+
+    <!-- Edit Work -->
+    <string name="Editwork">تعديل العمل</string>
+    <string name="edit_work_name">أسم الصورة</string>
+    <string name="edit_work_detailes">التفاصيل</string>
+    <string name="edit_work_price">السعر</string>
+    <string name="edit_work_name_empty">أدخل أسم الصورة</string>
+    <string name="edit_work_detailes_empty">أدخل تفاصيل الصورة</string>
+    <string name="edit_work_price_empty">أدخل سعر الصورة</string>
+    <string name="edit_work_image_empty">الرجاء أختيار الصورة!</string>
+    <string name="edit_work_img">الصورة</string>
+    <string name="btn_editwork">تعديل</string>
+    <string name="edit_work_successfully">تم التعديل بنجاح !</string>
+
+    <!--delete Work -->
+    <string name="item_delete_massage">هل انت متأكد أنك تريد حذف عمل </string>
+    <string name="delete_work_successfully">تم حذف العمل بنجاح !</string>
+
+    <!-- Home Page -->
+    <string name="main">الرئيسية</string>
+    <string name="search">بحث</string>
+    <string name="empty_work">لم تقم بإضافة أي أعمال !</string>
+    <string name="edit_work">تعديل</string>
+    <string name="delete_work">حذف</string>
+    <string name="shom_more">متابعة القراءة</string>
+    <string name="shom_less">. عرض أقل</string>
+
+
+    <!--total love-->
+    <string name="active">التفاعلات</string>
+    <string name="total_love">عدد التفاعلات</string>
+
+    <!--comments -->
+    <string name="comments">التعليقات</string>
+    <string name="addcomments">أكتب تعليقا</string>
+    <string name="empty_comments">لا توجد اي تعليقات !</string>
+    <string name="comment_done">تم إضافة التعليق بنجاح</string>
+    <string name="deletecomments">حذف</string>
+    <string name="deletecomment_massage">هل تريد حذف التعليق ؟</string>
+    <string name="delete_comment_successfully">تم حذف التعليق بنجاح !</string>
+
+    <!--Order-->
+    <string name="orders">الطلبات</string>
+    <string name="allorder">كل الطلبات</string>
+    <string name="allorder_succesfuly">الطلبات المقبولة</string>
+    <string name="allorder_fialed">الطلبات المرفوضة</string>
+    <string name="empty_order">لا توجد اي طلبات!</string>
+    <string name="cancle_order">رفض الطلب</string>
+    <string name="acceapt_order">قبول الطلب</string>
+    <string name="acceapt_order_massage">هل انت متأكد من قبول الطلب؟</string>
+    <string name="cancle_order_massage">هل انت متأكد من رفض الطلب؟</string>
+    <string name="cancle_order_successfully">تم رفض الطلب بنجاح !</string>
+    <string name="acceapt_order_successfully">تم قبول الطلب بنجاح !</string>
+    <string name="name_of_user">أسم صاحب الطلب:</string>
+    <string name="phone">رقم صاحب الطلب:</string>
+    <string name="theorder">حالة الطلب :</string>
+</resources>

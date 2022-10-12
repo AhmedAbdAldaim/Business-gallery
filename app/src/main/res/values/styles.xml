@@ -1,0 +1,47 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryDark">@color/blue1</item>
+        <item name="colorAccent">@color/red1</item>
+        <item name="fontFamily">@font/gg_ss</item>
+    </style>
+
+    <style name="AppTheme_NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowFullscreen">true</item>
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryDark">@color/blue1</item>
+        <item name="colorAccent">@color/red1</item>
+        <item name="fontFamily">@font/gg_ss</item>
+    </style>
+
+    <style name="AppTheme_NoActionBar_Main" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryDark">@color/blue1</item>
+        <item name="colorAccent">@color/red1</item>
+        <item name="fontFamily">@font/gg_ss</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="AppThemeHome" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="windowActionBarOverlay">true</item>
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryDark">@color/blue1</item>
+        <item name="colorAccent">@color/red1</item>
+        <item name="fontFamily">@font/gg_ss</item>
+    </style>
+
+    <style name="bottomsheet" parent="Theme.Design.BottomSheetDialog">
+        <item name="bottomSheetDialogTheme">@style/bottomSheetStyle</item>
+    </style>
+
+    <style name="bottomSheetStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+</resources>
